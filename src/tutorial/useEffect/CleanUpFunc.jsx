@@ -25,7 +25,7 @@ const RandomComponent = () => {
     const intId = setInterval(() => {
       console.log("Hello from interval");
     }, 1000);
-    // * The interval keeps on running even though you unmount the component and every time it mounts it bocome faster : This is not limited to interval
+    // * The interval keeps on running even though you unmount the component and every time it mounts it become faster : This is not limited to interval
 
     // ! Clean up func : runs after the rerender and before the useEffect
 
