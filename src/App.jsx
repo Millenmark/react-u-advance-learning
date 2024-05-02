@@ -10,6 +10,7 @@ import Navbar from "./tutorial/ContextAPI/Navbar";
 import UseReducerTuts from "./tutorial/useReducer/UseReducerTuts";
 import LowerStateChallenge from "./tutorial/Performance/LowerStateChallenge";
 import ReactMemo from "./tutorial/Memo/ReactMemo";
+import Tours from "./projects/Tours";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <Navbar /> */}
       {/* <UseReducerTuts /> */}
       {/* <LowerStateChallenge /> */}
-      <ReactMemo />
+      {/* <ReactMemo /> */}
+      <Tours />
     </div>
   );
 }
