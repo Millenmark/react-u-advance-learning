@@ -8,6 +8,8 @@ import UseRefTuts from "./tutorial/useRef/UseRefTuts";
 import ToggleExample from "./tutorial/CustomHooks/SampleUseCase/ToggleExample";
 import Navbar from "./tutorial/ContextAPI/Navbar";
 import UseReducerTuts from "./tutorial/useReducer/UseReducerTuts";
+import LowerStateChallenge from "./tutorial/Performance/LowerStateChallenge";
+import ReactMemo from "./tutorial/Memo/ReactMemo";
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
       {/* <UseRefTuts /> */}
       {/* <ToggleExample /> */}
       {/* <Navbar /> */}
-      <UseReducerTuts />
+      {/* <UseReducerTuts /> */}
+      {/* <LowerStateChallenge /> */}
+      <ReactMemo />
     </div>
   );
 }
